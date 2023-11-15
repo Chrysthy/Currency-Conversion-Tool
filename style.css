@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+
+body {
+    font-family: 'Handlee', cursive;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Background.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 90px;
+}
+
+.container h1 {
+    font-size: 60px;
+    margin-top: 90px;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+/* .page-logo {
+    width: 200px;
+  } */
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+body>img {
+    margin: px 10px;
+   
+}
+
+img {
+    max-height: 250px;
+}
