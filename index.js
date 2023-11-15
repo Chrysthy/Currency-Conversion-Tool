@@ -1,8 +1,8 @@
-var valorEmDolar = 64;
-var cotacaoDoDolar = 5.32;
+var valorEmDolar = prompt ("Enter your amount:");
+var cotacaoDoDolar = prompt ("Enter the exchange rate of the day:");
 
 var valorEmReal = valorEmDolar * cotacaoDoDolar;
 
 valorEmReal = valorEmReal.toFixed(2);
 
-alert("Olá, Chrystine! Esse é o valor convertido: R$ " + valorEmReal);
+alert("Esse é o valor convertido: R$ " + valorEmReal);
